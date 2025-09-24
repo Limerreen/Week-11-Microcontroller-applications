@@ -1,0 +1,48 @@
+# ESP-IDF Build Output
+build/
+sdkconfig.old
+dependencies.lock
+
+# ESP-IDF Flash Encryption/Secure Boot Keys
+*.key
+*.pem
+
+# ESP-IDF Development Tools
+.vscode/
+.devcontainer/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE Files
+*.swp
+*.swo
+*~
+.idea/
+
+# Build artifacts
+*.bin
+*.elf
+*.map
+*.hex
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# ESP32 specific
+managed_components/
+EOF
