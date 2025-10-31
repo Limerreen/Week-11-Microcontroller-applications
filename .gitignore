@@ -1,0 +1,26 @@
+# Ignore build output folders
+**/build/
+
+# ESP-IDF generated files
+**/sdkconfig
+**/sdkconfig.old
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/compile_commands.json
+**/*.ninja
+**/*.elf
+**/*.bin
+**/*.log
+**/*.map
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
